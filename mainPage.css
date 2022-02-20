@@ -1,0 +1,28 @@
+.userLoginPane {
+    width: 50%;
+    position: relative;
+    left: 50%;
+}
+
+.mainBG {
+    background-color: black;
+}
+
+.mainBG-Header {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    color: white;
+    font-size: 8rem;
+}
+
+.mainBG-P {
+    position: absolute;
+    color: grey;
+    top: 65%;
+    left: 5%;
+}
+
+td {
+    text-align: center;
+}

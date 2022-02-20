@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+div {
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.5);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  button {
+      position: relative;
+      bottom: 1rem;
+      left: 20%;
+
+  }
+
+.topHeader {
+    border-radius: 0px;
+    position:fixed;
+}
+.bottomHeader {
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 4rem;
+    background: black;
+}
+
+.bottomHeader h3 {
+  position: relative;
+  bottom: 100%;
+  right: 2%;
+  text-align: right;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.shoeName {
+    position: relative;
+    top: 1rem;
+}
+
+
+.itemDescription:hover {
+    display: none;
+}

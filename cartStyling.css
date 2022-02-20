@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.cart_parent {
+    position: relative;
+    padding: 1rem;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    height: 50%;
+    overflow: scroll;
+} 
+
+.cart_child {
+    position: relative;
+    top: 245%;
+    left: 100px;
+    margin: 6.25rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    scrollbar-width: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.shoeImg {
+    position:absolute;
+    bottom: -200px;
+    left: 40%;
+}
+
+.userID_Val {
+    position: relative;
+    left: 100px;
+}
+
+.removeButton {
+    position: relative;
+    top: 65px;
+    right: 25%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.checkoutButton {
+  position: absolute;
+  left: 80%;
+  font-size: 1.5rem;
+  bottom: 2rem;
+}
+
+.checkoutButton button {
+  padding: 5px;
+}
+
+.checkoutButton img{
+  display: none;
+}
+
+.rightArrow_checkOut {
+  width: 4rem;
+  margin: 0 0 0 5px;
+}
+
+.grandTotalPrice {
+  position: relative;
+  left: 5rem;
+  bottom: 35rem;
+}
+
+.grandTotalPrice h1 {
+  font-size: 3rem;
+  color: #7900FF;
+}
+
+.grandTotalPrice span {
+  font-weight: lighter;
+  font-size: 2rem;
+  color: black;
+}
